@@ -39,3 +39,5 @@ git push
 
 ###
 
+# INFO: 
+https://html5book.ru/css3-animation/
