@@ -7,6 +7,7 @@ function clickkrug() {
     var bor = getRandomInt(10)
     var br = getRandomInt(100)
     var deg =getRandomInt(360)
+ 
     
 
    
@@ -27,9 +28,9 @@ function clickkrug() {
     document.getElementById("krug").style.height = hei + "px";
     document.getElementById("krug").style.border = bor + "px solid" + "rgb(" + red + ", " + green + ", " + blue + ")";
     document.getElementById("krug").style.borderRadius = br + "px";
-    document.getElementById("krug").style.borderRadius = br + "px";
     document.getElementById("krug").style.transform = "rotate(" + deg +"deg)";
     document.getElementById("krug").style.boxShadow = stringBoxShadow;
+  
   
         
         

@@ -18,43 +18,32 @@ background: #aa9dce;
 box-shadow: 0 0 40px rgb(255, 255, 255, 15);
 margin: 15px;
 border: 4px solid rgb(255, 255, 255);
-animation: krug 3s infinite ease-in-out alternate-reverse;
-    }
+animation: pulse 2.5s linear infinite;
+}
 
-    @keyframes krug {
-        0% {
-            
-            border-width: 5px;
-            width: 200px;
-            height: 200px;
-        }
-        25% {
-            
-            border-width: 10px;
-            width: 205px;
-            height: 205px;
-            
-        }
-        50% {
-           
-            border-width: 15px;
-            width: 210px;
-            height: 210px;
-            
-        }
-        75% {
-           
-            border-width: 20px;
-            width: 215px;
-            height: 215px;
-            
-        }
-        100% {
-         
-            border-width: 25px;
-            width: 220px;
-            height: 220px;
-        }
+.pulse::after {
+  animation-delay: 1.25s;
+}
 
-    }
+@keyframes pulse {
+  0% {
+    transform: scale(0.2);
+    
+  }
+  25% {
+    transform: scale(0.4);
+    
+  }
+  50% {
+    transform: scale(0.6);
+  }
+  75% {
+    transform: scale(0.4);
+    
+  }
+  100% {
+    transform: scale(0.2);
+    
+  }
+}
     
