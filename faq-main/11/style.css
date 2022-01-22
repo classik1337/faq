@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    color: #002460;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Landing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.Landing__section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Landing__section_blue {
+    background-color: #002460;
+    color: #ffffff;
+}
+
+.Section {
+    padding: 56px 0;
+    width: 940px;
+}
+
+.Section__title {
+    font-size: 32px;
+    font-weight: 700;
+}
+.Section__header{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: space-between;
+align-items: stretch;
+}
+.Header__logotype {
+
+}
+.Header__menu {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: flex-end;
+align-items: center;
+
+}
+.menu__link{
+    font-size: 24px;
+    font-weight:  900;
+    margin-left: 24px;
+    cursor: pointer;
+    opacity: opaticy .25s;
+
+}
+.menu__link:hover {
+    opacity: 1;
+
+}
+.Selction__slider {
+
+}
+.Slider__content {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-content: space-between;
+justify-content: center;
+align-items: center;
+
+}
+.Slider__info {
+
+}
+.Slider__text {
+    font-size: 52px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+.slider__button{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 16px 24px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    color:#0249c2;
+
+}
+.Slider__image {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.Landing__section_image {
+    background-image: url('images/images/background_image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}

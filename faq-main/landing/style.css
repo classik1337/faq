@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    color: blue;
+    justify-content: center;
+    display: flex;
+    
+}
+.landing {
+
+}
+
+.Landing__section {
+
+}
+
+.Landing__section_blue 
+{
+    background-color: cornflowerblue;
+    color: skyblue;
+}
+
+.section {
+    padding: 56px 0;
+    
+}
+
+.section__tittle {}
