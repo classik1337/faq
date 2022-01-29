@@ -1,0 +1,56 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#selector_id {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(133, 148, 110);
+}
+
+.card{
+background-color: rgb(201, 192, 73);
+width: 256px;
+height: 340px;
+display: inline-block;
+margin: 16px ;
+border: 4px solid darkgreen;
+border-radius: 16px;
+box-shadow: 0px 16px 24px rgb(0, 0, 0, 0.33);
+transition: box-shadow 0.25s;
+padding: 16px;
+}
+
+.card:hover {
+    box-shadow: 0px 16px 19px #0000;
+}
+
+
+
+.card_radius-0 {
+border-radius: 0;
+}
+
+.card_radius-7{
+    border-radius: 7px;
+}
+
+.card__image {
+    height: 120px;
+    width: 120px;
+}
+
+.card_title {
+    color:blue;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.card__info {
+    font-size: 16px;
+    font-weight: 400;
+}
