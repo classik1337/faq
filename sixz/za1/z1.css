@@ -1,0 +1,32 @@
+.block__123 {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border: 15px;
+    border-color: black;
+    align-content: stretch;
+    align-items: center;
+    margin: 10px;
+}
+.kv_1 {
+    width: 300px;
+    height: 300px;
+    margin-left: 0px;
+    border: 5px solid rgb(9, 11, 12);
+    
+}
+.figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-top: 90px;
+    margin-left: 90px;
+}
